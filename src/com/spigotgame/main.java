@@ -9,6 +9,7 @@ public class main extends JavaPlugin {
 
     @Override
     public void onEnable(){
+        getServer().getPluginManager().registerEvents(new scoreboard(), this);
         getServer().getPluginManager().registerEvents(new pvp(), this);
         getServer().getPluginManager().registerEvents(new listener(), this);
         Logger log = Bukkit.getLogger();

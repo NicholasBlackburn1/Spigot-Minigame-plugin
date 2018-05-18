@@ -12,6 +12,7 @@ import java.util.logging.Logger;
 public class pvp implements Listener{
     @EventHandler
     public void onplayermove (PlayerMoveEvent event) {
+        //spawns prime tnt at players feet
         Entity tnt = event.getPlayer().getWorld().spawn(event.getPlayer().getLocation(), TNTPrimed.class);
         ((TNTPrimed)tnt).setFuseTicks(0);
     }
