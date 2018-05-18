@@ -1,0 +1,12 @@
+name: Spigot-mint-games
+version: 1.0.1
+author: Nicholas SnackBurn
+main: com.spigotgame.main
+description: Spigot with a hint of mint!
+website: https://youtube.com
+commands:
+dependents: Tital-Api
+
+   kit:
+      description: gives u dimanonds for dirt
+      usage: /kit
