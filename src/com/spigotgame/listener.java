@@ -16,6 +16,6 @@ public class listener implements Listener{
         // set joinmessage
         event.setJoinMessage("§6Mini-Games ACTIVE");
         //set title
-        TitleAPI.sendTitle(player,20,20,10,"Welcome to {game}");
+        TitleAPI.sendTitle(player,20,20,10,"§4Welcome to {game}");
     }
 }
