@@ -9,10 +9,11 @@ public class main extends JavaPlugin {
 
     @Override
     public void onEnable(){
+        getServer().getPluginManager().registerEvents(new pvp(), this);
         getServer().getPluginManager().registerEvents(new listener(), this);
         Logger log = Bukkit.getLogger();
         log.info("§4============================\n");
-        log.info("§2======= fun - Plugin ========\n");
+        log.info("§2======= tntrun - Plugin ========\n");
         log.info("§4============================\n");
         log.info("§2== By Nicholas Blackburn ===\n");
         log.info("§4============================\n");
